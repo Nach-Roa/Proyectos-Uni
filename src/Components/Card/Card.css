@@ -1,0 +1,13 @@
+.card{
+    box-sizing: border-box;
+    border: 2px solid #4A6B5D;
+    border-radius: 14px;
+    padding: 1rem;
+    width: 140px;
+    min-height: 165px;
+    background: transparent;
+    color: #4A6B5D;
+}
+
+.card h2 { margin: 0 0 0.8rem; font-size: 1.25rem; }
+.card p { margin: 0; line-height: 1.7; }

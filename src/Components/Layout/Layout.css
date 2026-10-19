@@ -1,0 +1,33 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #4A6B5D;
+    background: #F9F6F0;
+}
+
+.layout-body {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+}
+
+.layout-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+}
+
+.page-title {
+    font-size: 2rem;
+    letter-spacing: normal;
+    color: #4A6B5D;
+    margin: 0 0 1rem;
+}
+
+.dashboard-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
